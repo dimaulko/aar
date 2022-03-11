@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=topnotificator-release.aar" 
+  - mvn install:install-file $FILE -DgroupId=ua.improveit.topnotificator -DartifactId=topnotificator -Dversion=0.0.6 -Dpackaging=aar -DgeneratePom=true
